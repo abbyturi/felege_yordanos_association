@@ -1,0 +1,175 @@
+/* === Global === */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color:greenyellow
+  position: relative;
+  z-index: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgb(255, 215, 0)
+  z-index: 0;
+}
+
+/* === Video background === */
+.video-background {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+  background: url('images/a065ia.gif') center center / cover no-repeat;
+}
+
+.video-background iframe {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 177.77vh; /* 16:9 */
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/* === Hero with feature === */
+.hero-with-feature {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1; /* ensures it stays above background */
+  padding: 2rem;
+}
+
+.about-hero {
+  flex: 1 1 60%;
+  max-width: 60%;
+  text-align: left;
+  color: #fff;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  max-width: 600px;
+  color: #fff;
+}
+
+.featured-highlight {
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  border-left: 4px solid #007ACC;
+  max-width: 300px;
+  border-radius: 6px;
+}
+
+@media (max-width: 992px) {
+  .hero-with-feature {
+    flex-direction: column;
+  }
+  .about-hero, .featured-highlight {
+    position: static;
+    max-width: 100%;
+    margin: 1rem auto;
+  }
+}
+
+/* === Project gallery === */
+.project-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-item {
+  flex: 0 0 600px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 8px;
+  padding: 1.5rem;   /* more space inside */
+  text-align: center;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;   /* optional: make images taller too */
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+
+.background-slideshow {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.background-slideshow .slide {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: fade 15s infinite;
+}
+
+.background-slideshow .slide1 {
+  background-image: url('images/photo_church1.jpg');
+  animation-delay: 0s;
+}
+
+.background-slideshow .slide2 {
+  background-image: url('images/photo_church2.jpg');
+  animation-delay: 5s;
+}
+
+.background-slideshow .slide3 {
+  background-image: url('images/photo_church3.jpg');
+  animation-delay: 10s;
+}
+
+@keyframes fade {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  30%  { opacity: 1; }
+  40%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* Container for logo and title inline */
+.site-branding {
+  display: flex;
+  align-items: center;
+  gap: 10px;  /* space between logo and text */
+  margin-left: 1rem; /* optional: align nicely */
+}
+
+/* Logo image */
+.site-logo {
+  max-height: 40px;  /* adjust as needed */
+  width: auto;
+}
+
+/* Title text next to logo */
+.site-title {
+  font-size: 1.5rem;   /* match your style */
+  font-weight: bold;
+  color: #333;         /* or your preferred color */
+}
+

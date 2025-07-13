@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ፈለገ ዮርዳኖስ"
+  navbar:               
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Gallery"
+        href: galery.qmd
+      - text: "Contact"
+        href: contact.qmd
+      - text: "Donate"
+        href: donate.qmd
+    logo: "images/logo.jpg"   
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Gallery"
+        href: galery.qmd
+      - text: "Contact"
+        href: contact.qmd
+      - text: "Donate"
+        href: donate.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css

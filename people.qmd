@@ -1,0 +1,61 @@
+---
+title: "People"
+format: html
+toc: true
+---
+
+<style>
+.book-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.book-gallery figure {
+  max-width: 200px;
+  text-align: center;
+}
+
+.book-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.book-gallery figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+</style>
+
+<div class="book-gallery">
+
+<figure>
+  <img src="images/kesis_adane.jpg" alt="ቄስ አዳነ ገቢ">
+  <figcaption>ቄስ አዳነ ገቢ</figcaption>
+</figure>
+
+<figure>
+  <img src="images/yitez.jpg" alt="ዶ/ር ይታገሱ ዘውዱ">
+  <figcaption>ዶ/ር ይታገሱ ዘውዱ(የቦርድ አባል)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/yitagesu.jpg" alt="ዶ/ር ይታገሱ ዘውዱ">
+  <figcaption>አቶ ብሩክ ይርጋለም (የቦርድ ሰብሳቢ)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/yitagesu.jpg" alt="ዶ/ር ይታገሱ ዘውዱ">
+  <figcaption>አቶ ተሻለ በዛብህ (የቦርድ ም/ሰብሳቢ)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/yitagesu.jpg" alt="ዶ/ር ይታገሱ ዘውዱ">
+  <figcaption>አቶ ለገሰ ታደሰ (የማኅበሩ ዋና ስራ አስኪያጅ)</figcaption>
+</figure>
+
+
+</div>

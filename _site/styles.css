@@ -1,0 +1,170 @@
+/* === Background and Global === */
+body {
+  background: url('images/hero-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: -1;
+}
+
+h1, h2, h3, p {
+  text-shadow: none;
+}
+
+/* === Hero Section with Featured pinned top-right === */
+.hero-with-feature {
+  display: flex;
+  position: relative; /* needed for absolute children */
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.about-hero {
+  flex: 1 1 60%; /* 60% for bio */
+  max-width: 60%;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.about-photo {
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #333;
+  text-shadow: none;
+}
+
+/* === Featured Highlight pinned top-right === */
+.featured-highlight {
+  position: absolute;
+  top: 10rem; /* adjust for vertical alignment */
+  right: 4rem;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-left: 4px solid #007ACC;
+  max-width: 300px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 992px) {
+  .hero-with-feature {
+    flex-direction: column;
+  }
+
+  .about-hero,
+  .featured-highlight {
+    position: static; /* unpin featured highlight */
+    max-width: 100%;
+    margin: 1rem auto;
+  }
+}
+
+/* === Logo Gallery === */
+.logo-gallery {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  overflow: hidden;
+  padding: 1rem 0;
+  animation: scroll 20s linear infinite;
+}
+
+.logo-gallery img {
+  height: 80px;
+}
+
+.publications-gallery {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  overflow: hidden;
+  padding: 1rem 0;
+  animation: scroll 20s linear infinite;
+}
+
+.publications-gallery img {
+  height: 200px !important; 
+}
+
+.publications-gallery:hover {
+  animation-play-state: paused;
+}
+
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.logo-gallery:hover {
+  animation-play-state: paused;
+}
+
+.full-width {
+  width: 100vw;      /* full viewport width */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: hidden;  /* no horizontal scrollbar */
+}
+
+/* === Featured Gallery Images === */
+.featured-gallery img {
+  width: 80%;          /* responsive size */
+  max-width: 400px;    /* cap max width */
+  height: auto;
+  display: block;
+  margin: 0 auto;      /* center horizontally */
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.featured-gallery img:hover {
+  transform: scale(1.03);
+}
+
+.project-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* Makes it responsive on small screens */
+}
+
+.project-img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-desc {
+  flex: 1;
+}
+/* css styles */

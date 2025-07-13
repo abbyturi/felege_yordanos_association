@@ -1,0 +1,149 @@
+---
+title: "ፍለገ ዮርዳኖስ ማህበር"
+format: html
+---
+
+<!-- ✅ Background Slideshow -->
+<div class="background-slideshow">
+  <div class="slide slide1"></div>
+  <div class="slide slide2"></div>
+  <div class="slide slide3"></div>
+</div>
+
+<!-- ✅ Main Content -->
+<main class="hero-section">
+
+<h1>እንኳን ወደ ፍለገ ዮርዳኖስ ጠቅላላ ማኅበር በደህና መጡ።</h1>
+
+<p class="highlight">
+በኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን የማህበራት ማደራጃና መምሪያ የፍለገ ዮርዳኖስ ጠቅላላ ማኅበር፣
+  ፍለገ ዮርዳኖስ ማህበር በመንፈሳዊ ተልዕኮ፣ ማህበራዊ እገዛ እና የህዝብ እንክብካቤ ላይ የተመሰረተ ነው።
+  በእምነት፣ ፍቅርና በአንድነት ማህበረሰባችንን ለመደገፍ እንሠራለን።
+</p>
+
+::: {.project-gallery}
+
+::: {.project-item}
+![መንፈሳዊ አገልግሎት](images/sebket.jpg){.project-img}
+
+**መንፈሳዊ አገልግሎት**  
+የቤተክርስቲያን እምነትን ለማህበረሰብ ለማስተላለፍ የተዘጋጀ ተልዕኮ።
+:::
+
+::: {.project-item}
+![ማህበራዊ እገዛ](images/community_support.png){.project-img}
+
+**ማህበራዊ እገዛ**  
+የማህበረሰብ እንክብካቤና ድጋፍ፣ በተባባሪነት መስራት።
+:::
+
+::: {.project-item}
+![መንፈሳዊ ትምህርት](images/event2.jpg){.project-img}
+
+**መንፈሳዊ ትምህርት**  
+የአባላትን ማበቃት እና መምህራን ስልጠና።
+:::
+
+::: {.project-item}
+![የገጠር አብያተ ክርስቲያናት አገግሎት](images/village_church.jpg){.project-img}
+
+**የገጠር አብያተ ክርስቲያናት አገግሎት** 
+የገጠር አብያተ ክርስቲያናትን በማጠናከር፣ ሐዋርያዊ እና ማህበራዊ አገልግሎቶችን በመስጠት፣ የአባላቱንና የምዕመናኑን በወንጌል ትምህርት እውቀት በማሳደግ።
+:::
+
+::: {.project-item}
+![የአብነት ትምህርት ቤት ፕሮጀክት](images/abenet.jpg){.project-img}
+
+**የአብነት ትምህርት ቤት ፕሮጀክት**
+
+ማኅበሩ የአብነት ትምህርት ቤቶች እንዲጠናከሩ ድጋፍ ያደርጋል። የአብነት ትምህርት ቤቶች ጥራት እና ተደራሽነት በተዘጋጁ ድጋፍ ፕሮግራሞች ይጨምራል።
+:::
+
+
+:::
+
+</main>
+
+<style>
+.background-slideshow {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+.slide {
+  position: absolute;
+  width: 100%; height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: fade 15s infinite;
+}
+.slide1 { background-image: url('images/slide1.jpg'); animation-delay: 0s; }
+.slide2 { background-image: url('images/slide2.jpg'); animation-delay: 5s; }
+.slide3 { background-image: url('images/slide3.jpg'); animation-delay: 10s; }
+
+@keyframes fade {
+  0%, 33%, 100% { opacity: 0; }
+  10%, 25% { opacity: 1; }
+}
+
+.hero-section {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  color: #FFC107;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: purple
+}
+
+.highlight {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFC107; /* bright yellow highlight */
+}
+
+.description {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 1rem auto 0;
+  color: #222222;
+}
+
+.project-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-item {
+  flex: 0 0 250px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid #996633 
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  color: #222222;
+}
+
+.project-item strong {
+  color: #00BFFF; /* electric blue headings */
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+</style>
