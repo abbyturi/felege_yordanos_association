@@ -32,29 +32,90 @@ toc: true
 
 <div class="book-gallery">
 
+
 <figure>
-  <img src="images/kesis_adane.jpg" alt="ቄስ አዳነ ገቢ">
-  <figcaption>ቄስ አዳነ ገቢ</figcaption>
+  <img src="images/legese.jpg" alt="መ/ወ ለገሰ ታደሰ" >
+  <figcaption> መ/ወ ለገሰ ታደሰ (ዋና ሥራ አስኪያጅ)</figcaption>
 </figure>
 
 <figure>
-  <img src="images/yitez.jpg" alt="ዶ/ር ይታገሱ ዘውዱ">
+  <img src="images/semtayehu.jpg" alt="መ/ወ ስንታየሁ ኃይለ ገብርኤል" >
+  <figcaption>መ/ወ ስንታየሁ ኃይለ ገብርኤል (ም/ሥራ አስኪያጅ)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/biruk_yirga.jpg" alt="መ/ወ ብሩክ ይርጋለም">
+  <figcaption>መ/ወ ብሩክ ይርጋለም (የቦርድ ሰብሳቢ)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/teshale.jpg" alt="መ/ወ ተሻለ በዛብህ">
+  <figcaption> መ/ወ ተሻለ በዛብህ  (የቦርድ ም/ሰብሳቢ)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/kesis_adane.jpg" alt="ቀሲስ አዳነ ገቢ">
+  <figcaption>ቀሲስ አዳነ ገቢ</figcaption>
+</figure>
+
+<figure>
+  <img src="images/Yitagesu Photo_1.jpeg" alt="ዶ/ር ይታገሱ ዘውዱ">
   <figcaption>ዶ/ር ይታገሱ ዘውዱ(የቦርድ አባል)</figcaption>
 </figure>
 
 <figure>
-  <img src="images/yitagesu.jpg" alt="ዶ/ር ይታገሱ ዘውዱ">
-  <figcaption>አቶ ብሩክ ይርጋለም (የቦርድ ሰብሳቢ)</figcaption>
+  <img src="images/adane.jpg" alt="ዶ/ር አዳነ ተስፋዪ">
+  <figcaption> ዶ/ር አዳነ ተስፋዪ (የቦርድ አባል)</figcaption>
 </figure>
 
 <figure>
-  <img src="images/yitagesu.jpg" alt="ዶ/ር ይታገሱ ዘውዱ">
-  <figcaption>አቶ ተሻለ በዛብህ (የቦርድ ም/ሰብሳቢ)</figcaption>
+  <img src="images/engedashet.jpg" alt="መ/ወ እንግዳእሸት መላኩ ">
+  <figcaption> መ/ወ እንግዳእሸት መላኩ (የቦርድ አባል)</figcaption>
 </figure>
 
 <figure>
-  <img src="images/yitagesu.jpg" alt="ዶ/ር ይታገሱ ዘውዱ">
-  <figcaption>አቶ ለገሰ ታደሰ (የማኅበሩ ዋና ስራ አስኪያጅ)</figcaption>
+  <img src="images/ashenafi.jpg" alt="ክንፈ መንጀታ">
+  <figcaption> መምህር አሸናፊ ታደሰ (የቦርድ ሰብሳቢ)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/kinfe.jpg" alt="ክንፈ መንጀታ">
+  <figcaption> ክንፈ መንጀታ (የቦርድ ሰብሳቢ)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/etaferahu.jpg" alt="መ/እ እታፈራሁ ገዛኽኝ">
+  <figcaption>መ/እ እታፈራሁ ገዛኽኝ ( የሥራ አስፈፃሚ ኮሚቴ አባል)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/mulugeta.jpg" alt="መ/ወ ሙሉጌታ ግርማ">
+  <figcaption>መ/ወ ሙሉጌታ ግርማ (የሥራ አስፈፃሚ ኮሚቴ አባል)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/kasahun.jpg" alt="መ/ወ ካሳሁን ተረፈ">
+  <figcaption>መ/ወ ካሳሁን ተረፈ (የሥራ አስፈፃሚ ኮሚቴ አባል)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/bruk.jpg" alt="መ/እ ብሩክ ረታ ">
+  <figcaption>መ/እ ብሩክ ረታ (የሥራ አስፈፃሚ ኮሚቴ አባል)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/kiros.jpg" alt="መ/ወ ኪሮስ ሐዱሽ ">
+  <figcaption>መ/ወ ኪሮስ ሐዱሽ (የሥራ አስፈፃሚ ኮሚቴ አባል)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/zerihun.jpg" alt="መ/ወ ዘሪሁን ክንፈ ">
+  <figcaption>መ/ወ ዘሪሁን ክንፈ (የሥራ አስፈፃሚ ኮሚቴ አባል)</figcaption>
+</figure>
+
+<figure>
+  <img src="images/zerihun.jpg" alt="መ/ወ ዘሪሁን ክንፈ ">
+  <figcaption>መ/ወ ዘሪሁን ክንፈ (የሥራ አስፈፃሚ ኮሚቴ አባል)</figcaption>
 </figure>
 
 

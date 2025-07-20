@@ -16,6 +16,8 @@ website:
         href: galery.qmd
       - text: "Contact"
         href: contact.qmd
+      - text: "membership"
+        href: membership.qmd
       - text: "Donate"
         href: donate.qmd
     logo: "images/logo.jpg"   
@@ -33,6 +35,8 @@ website:
         href: galery.qmd
       - text: "Contact"
         href: contact.qmd
+      - text: "membership"
+        href: membership.qmd
       - text: "Donate"
         href: donate.qmd
 
