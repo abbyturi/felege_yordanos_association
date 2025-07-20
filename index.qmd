@@ -16,7 +16,7 @@ format: html
 <h1>እንኳን ወደ ፈለገ ዮርዳኖስ መንፈሳዊ ጠቅላላ ማኅበር በደህና መጡ።</h1>
 
 <p class="highlight">
-በኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን የማህበራት ማደራጃና መምሪያ የፍለገ ዮርዳኖስ ጠቅላላ ማኅበር፣
+በኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተክርስቲያን የማህበራት ማደራጃና መምሪያ የፈለገ ዮርዳኖስ ጠቅላላ ማኅበር፣
   ፍለገ ዮርዳኖስ ማህበር በመንፈሳዊ ተልዕኮ፣ ማህበራዊ እገዛ እና የህዝብ እንክብካቤ ላይ የተመሰረተ ነው።
   በእምነት፣ ፍቅርና በአንድነት ማህበረሰባችንን ለመደገፍ እንሠራለን።
 </p>
@@ -24,9 +24,10 @@ format: html
 ::: {.project-gallery}
 
 ::: {.project-item}
-![መንፈሳዊ አገልግሎት](images/sebket.jpg){.project-img}
+![](images/sebket.jpg){.project-img}
 
 **መንፈሳዊ አገልግሎት**  
+
 የቤተክርስቲያን እምነትን ለማህበረሰብ ለማስተላለፍ የተዘጋጀ ተልዕኮ።
 :::
 
@@ -34,25 +35,28 @@ format: html
 ![ማህበራዊ እገዛ](images/community_support.png){.project-img}
 
 **ማህበራዊ እገዛ**  
+
 የማህበረሰብ እንክብካቤና ድጋፍ፣ በተባባሪነት መስራት።
 :::
 
 ::: {.project-item}
-![መንፈሳዊ ትምህርት](images/event2.jpg){.project-img}
+![](images/event2.jpg){.project-img}
 
 **መንፈሳዊ ትምህርት**  
+
 የአባላትን ማበቃት እና መምህራን ስልጠና።
 :::
 
 ::: {.project-item}
-![የገጠር አብያተ ክርስቲያናት አገግሎት](images/village_church.jpg){.project-img}
+![](images/village_church.jpg){.project-img}
 
 **የገጠር አብያተ ክርስቲያናት አገግሎት** 
+
 የገጠር አብያተ ክርስቲያናትን በማጠናከር፣ ሐዋርያዊ እና ማህበራዊ አገልግሎቶችን በመስጠት፣ የአባላቱንና የምዕመናኑን በወንጌል ትምህርት እውቀት በማሳደግ።
 :::
 
 ::: {.project-item}
-![የአብነት ትምህርት ቤት ፕሮጀክት](images/abenet.jpg){.project-img}
+![](images/abenet.jpg){.project-img}
 
 **የአብነት ትምህርት ቤት ፕሮጀክት**
 
@@ -100,20 +104,20 @@ format: html
 .hero-section h1 {
   font-size: 2.5rem;
   font-weight: 800;
-  color: purple
+  color: blue
 }
 
 .highlight {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #FFC107; /* bright yellow highlight */
+  color: gold; 
 }
 
 .description {
   font-size: 1.1rem;
   max-width: 800px;
   margin: 1rem auto 0;
-  color: #222222;
+  color: orange;
 }
 
 .project-gallery {
@@ -131,7 +135,7 @@ format: html
   border-radius: 8px;
   padding: 1rem;
   text-align: center;
-  color: #222222;
+  color: orange;
 }
 
 .project-item strong {

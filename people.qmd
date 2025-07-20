@@ -43,6 +43,8 @@ toc: true
   <figcaption>መ/ወ ስንታየሁ ኃይለ ገብርኤል (ም/ሥራ አስኪያጅ)</figcaption>
 </figure>
 
+--- 
+
 <figure>
   <img src="images/biruk_yirga.jpg" alt="መ/ወ ብሩክ ይርጋለም">
   <figcaption>መ/ወ ብሩክ ይርጋለም (የቦርድ ሰብሳቢ)</figcaption>
@@ -53,9 +55,11 @@ toc: true
   <figcaption> መ/ወ ተሻለ በዛብህ  (የቦርድ ም/ሰብሳቢ)</figcaption>
 </figure>
 
+--- 
+
 <figure>
   <img src="images/kesis_adane.jpg" alt="ቀሲስ አዳነ ገቢ">
-  <figcaption>ቀሲስ አዳነ ገቢ</figcaption>
+  <figcaption>ቀሲስ አዳነ ገቢ (የቦርድ አባል)</figcaption>
 </figure>
 
 <figure>
@@ -106,11 +110,6 @@ toc: true
 <figure>
   <img src="images/kiros.jpg" alt="መ/ወ ኪሮስ ሐዱሽ ">
   <figcaption>መ/ወ ኪሮስ ሐዱሽ (የሥራ አስፈፃሚ ኮሚቴ አባል)</figcaption>
-</figure>
-
-<figure>
-  <img src="images/zerihun.jpg" alt="መ/ወ ዘሪሁን ክንፈ ">
-  <figcaption>መ/ወ ዘሪሁን ክንፈ (የሥራ አስፈፃሚ ኮሚቴ አባል)</figcaption>
 </figure>
 
 <figure>
