@@ -32,7 +32,7 @@ format: html
 :::
 
 ::: {.project-item}
-![ማህበራዊ እገዛ](images/community_support.png){.project-img}
+![](images/community_support.png){.project-img}
 
 **ማህበራዊ እገዛ**  
 
